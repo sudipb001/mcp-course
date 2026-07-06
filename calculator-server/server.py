@@ -1,0 +1,20 @@
+from mcp.server.fastmcp import FastMCP
+
+# Create the MCP server, and give it a name
+mcp = FastMCP("Calculator")
+
+
+@mcp.tool()
+def add(a: int, b: int) -> int:
+    """Add two numbers together."""
+    return a + b
+
+
+@mcp.tool()
+def multiply(a: int, b: int) -> int:
+    """Multiply two numbers together."""
+    return a * b
+
+
+if __name__ == "__main__":
+    mcp.run()
