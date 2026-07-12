@@ -12,6 +12,7 @@ resolution-markers = [
 members = [
     "ai-tool-calling-demo",
     "calculator-server",
+    "first-mcp-server",
     "mcp-course",
 ]
 
@@ -242,6 +243,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/d3/af/a5f50ccfa659ec180
 wheels = [
     { url = "https://files.pythonhosted.org/packages/9e/7c/8e3c6ad324ea5cb36604fc3f968554887891c316d9dfde57761611d907ad/fastapi-0.139.0-py3-none-any.whl", hash = "sha256:cf15e1e9e667ddb0ad63811e60bd11390d1aac838ca4a7a23f421807b2308189", size = 130339, upload-time = "2026-07-01T16:35:32.19Z" },
 ]
+
+[[package]]
+name = "first-mcp-server"
+version = "0.1.0"
+source = { virtual = "first-mcp-server" }
+dependencies = [
+    { name = "mcp" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "mcp", specifier = ">=1.28.1" }]
 
 [[package]]
 name = "h11"

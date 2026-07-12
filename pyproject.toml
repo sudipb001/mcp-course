@@ -16,4 +16,5 @@ members = [
     "calculator-server",
     "weather-mcp-server",
     "ai-tool-calling-demo",
+    "first-mcp-server",
 ]
