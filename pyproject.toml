@@ -17,4 +17,8 @@ members = [
     "weather-mcp-server",
     "ai-tool-calling-demo",
     "first-mcp-server",
+    "file-server",
+    "sqlite-server",
+    "rest-api-server",
+    "documentation-server",
 ]
