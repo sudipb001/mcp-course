@@ -26,4 +26,5 @@ members = [
     "company-assistant-server",
     "resource-server",
     "team-prompt-server",
+    "inventory-server",
 ]
