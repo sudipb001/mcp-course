@@ -1,5 +1,5 @@
 def main():
-    print("Hello from documentation-server!")
+    print("Hello from prompt-server!")
 
 
 if __name__ == "__main__":

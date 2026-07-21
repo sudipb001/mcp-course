@@ -21,4 +21,9 @@ members = [
     "sqlite-server",
     "rest-api-server",
     "documentation-server",
+    "doc-server",
+    "prompt-server",
+    "company-assistant-server",
+    "resource-server",
+    "team-prompt-server",
 ]
